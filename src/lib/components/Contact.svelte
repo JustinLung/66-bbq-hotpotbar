@@ -1,3 +1,9 @@
+<script lang="ts">
+	import MailIcon from './icons/MailIcon.svelte';
+	import PhoneIcon from './icons/PhoneIcon.svelte';
+	import LocationIcon from './icons/LocationIcon.svelte';
+</script>
+
 <section class="flex flex-col md:flex-row mt-20">
 	<img
 		src="/assets/images/restaurant-outside.png"
@@ -10,12 +16,14 @@
 			href="https://goo.gl/maps/4nwdTp4CWg8Cpj498"
 			target="_blank"
 			rel="noreferrer"
-			class="text-lg hover:underline"
-			>Korte Leidsedwarsstraat 95A<br />1017 PX Amsterdam, Netherlands</a
+			class="text-lg hover:underline flex items-center gap-5"
+			><LocationIcon /> Korte Leidsedwarsstraat 95A<br />1017 PX Amsterdam, Netherlands</a
 		>
-		<a href="tel:(020) 776 66 71" class="text-lg hover:underline">(020) 776 66 71</a>
-		<a href="mailto:info@66bbqhotpotbar.nl" class="text-lg hover:underline"
-			>info@66bbqhotpotbar.nl</a
+		<a href="tel:(020) 776 66 71" class="text-lg hover:underline flex items-center  gap-5"
+			><PhoneIcon />(020) 776 66 71</a
+		>
+		<a href="mailto:info@66bbqhotpotbar.nl" class="text-lg hover:underline flex items-center"
+			><MailIcon /> info@66bbqhotpotbar.nl</a
 		>
 
 		<h2 class="text-3xl md:text-4xl font-semibold mt-10 mb-3">Opening Hours</h2>

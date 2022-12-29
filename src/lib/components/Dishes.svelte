@@ -5,7 +5,7 @@
 		straight from our kitchen. Add even more to your experience with a selection from our
 		complimentary beverages, and trust us—here is the best choice for your belly.
 	</p>
-	<div class="flex flex-col md:flex-row gap-4 pt-5">
+	<div class="grid md:grid-cols-2 lg:grid-cols-3 pt-5 gap-5">
 		<slot />
 	</div>
 </section>

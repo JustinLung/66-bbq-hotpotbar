@@ -1,6 +1,6 @@
 <script lang="ts">
-	import FacebookIcon from './FacebookIcon.svelte';
-	import InstagramIcon from './InstagramIcon.svelte';
+	import FacebookIcon from '$lib/components/icons/FacebookIcon.svelte';
+	import InstagramIcon from '$lib/components/icons/InstagramIcon.svelte';
 
 	export let companyName: string;
 </script>
