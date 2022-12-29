@@ -3,7 +3,7 @@
 		<h1 class="text-center text-3xl lg:text-left md:text-5xl font-bold">
 			Welcome to 66 <br /> BBQ & Hotpot Bar
 		</h1>
-		<p class="text-xl py-3 text-center lg:text-left">Lorem ipsum dolor sit amet.</p>
+		<p class="text-xl py-3 text-center lg:text-left">A pinch of passion in every dish.</p>
 		<div class="flex gap-2 justify-center lg:justify-start">
 			<a href="/" class="bg-red py-1 px-3 rounded text-lg hover:opacity-70 ease-in-out duration-300"
 				>See our menu</a
