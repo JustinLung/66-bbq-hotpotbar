@@ -10,7 +10,7 @@
 		alt="Restaurant Outside"
 		class="md:w-2/4 w-full"
 	/>
-	<div class="md:w-2/4 w-full flex flex-col justify-center p-5 md:px-24 bg-darkPurple">
+	<div class="md:w-2/4 w-full flex flex-col justify-center p-5 md:pl-24 bg-darkPurple">
 		<h2 class="text-3xl md:text-4xl font-semibold mb-3">Contact</h2>
 		<a
 			href="https://goo.gl/maps/4nwdTp4CWg8Cpj498"
@@ -19,10 +19,12 @@
 			class="text-lg hover:underline flex items-center gap-5"
 			><LocationIcon /> Korte Leidsedwarsstraat 95A<br />1017 PX Amsterdam, Netherlands</a
 		>
-		<a href="tel:(020) 776 66 71" class="text-lg hover:underline flex items-center  gap-5"
+		<a href="tel:(020) 776 66 71" class="text-lg hover:underline flex items-center gap-5 py-3"
 			><PhoneIcon />(020) 776 66 71</a
 		>
-		<a href="mailto:info@66bbqhotpotbar.nl" class="text-lg hover:underline flex items-center"
+		<a
+			href="mailto:info@66bbqhotpotbar.nl"
+			class="text-lg hover:underline flex items-center gap-5 pt-2"
 			><MailIcon /> info@66bbqhotpotbar.nl</a
 		>
 
