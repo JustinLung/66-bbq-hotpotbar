@@ -7,10 +7,10 @@
 
 <footer class="bg-darkPurple mt-10 py-20">
 	<div class="flex justify-center items-center">
-		<a href="https://www.instagram.com/66bbqhotpot/" target="_blank" rel="noreferrer"
+		<a href="https://www.instagram.com/66bbqhotpot/" aria-label="Instagram Link" target="_blank" rel="noreferrer"
 			><InstagramIcon /></a
 		>
-		<a href="https://www.facebook.com/66bbqhotpotbar" target="_blank" rel="noreferrer"
+		<a href="https://www.facebook.com/66bbqhotpotbar" aria-label="Facebook Link" target="_blank" rel="noreferrer"
 			><FacebookIcon /></a
 		>
 	</div>
