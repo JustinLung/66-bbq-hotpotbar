@@ -4,7 +4,7 @@
 	import LocationIcon from './icons/LocationIcon.svelte';
 </script>
 
-<section class="flex flex-col md:flex-row mt-20">
+<section id="contact" class="flex flex-col md:flex-row mt-20">
 	<img
 		src="/assets/images/restaurant-outside.png"
 		alt="Restaurant Outside"

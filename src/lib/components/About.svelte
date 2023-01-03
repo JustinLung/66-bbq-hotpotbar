@@ -1,4 +1,4 @@
-<section class="max-w-6xl mx-auto justify-between flex flex-col lg:flex-row gap-5 mt-20">
+<section id="about" class="max-w-6xl mx-auto justify-between flex flex-col lg:flex-row gap-5 mt-20">
 	<div class="my-auto">
 		<h2 class="text-3xl font-semibold">About us</h2>
 		<p class="max-w-lg text-lg">

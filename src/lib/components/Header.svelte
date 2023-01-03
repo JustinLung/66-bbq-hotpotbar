@@ -38,13 +38,13 @@
 				? 'flex'
 				: 'hidden'}"
 		>
-			<a href="/home">Home</a>
-			<a href="/">Menu</a>
-			<a href="/">About</a>
-			<a href="/">Contact</a>
+			<a href="/">Home</a>
+			<a href="/menu">Menu</a>
+			<a href="/#about">About</a>
+			<a href="/#contact">Contact</a>
 			<a
 				class="md:bg-red md:px-5 md:py-2 rounded hover:opacity-70 ease-in-out duration-300"
-				href="/">Book a table</a
+				href="/booking">Book a table</a
 			>
 		</div>
 	</nav>
