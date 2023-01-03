@@ -2,6 +2,7 @@
 	import '../styles/app.css';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import BackToTop from '$lib/components/BackToTop.svelte';
 </script>
 
 <Header />
@@ -9,3 +10,4 @@
 	<slot />
 </main>
 <Footer companyName="66 BBQ & Hotpot Bar" />
+<BackToTop />

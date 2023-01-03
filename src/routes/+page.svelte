@@ -1,10 +1,10 @@
 <script lang="ts">
 	import type { PageData } from './$types';
-	import Hero from '$lib/components/Hero.svelte';
-	import Dish from '$lib/components/Dish.svelte';
-	import Dishes from '$lib/components/Dishes.svelte';
-	import About from '$lib/components/About.svelte';
-	import Contact from '$lib/components/Contact.svelte';
+	import Hero from '$lib/components/homePageComponents/Hero.svelte';
+	import Dish from '$lib/components/homePageComponents/Dish.svelte';
+	import Dishes from '$lib/components/homePageComponents/Dishes.svelte';
+	import About from '$lib/components/homePageComponents/About.svelte';
+	import Contact from '$lib/components/homePageComponents/Contact.svelte';
 	import PageTransition from '$lib/components/PageTransition.svelte';
 
 	export let data: PageData;

@@ -17,5 +17,9 @@
 			>
 		</div>
 	</div>
-	<img src="/assets/images/hotpot-visual.png" alt="Hotpot" class="mt-7 lg:mt-0" />
+	<img
+		src="/assets/images/hotpot-visual.png"
+		alt="Hotpot"
+		class="mt-7 w-10/12 md:w-2/4 lg:mt-0 animate-spin-slow"
+	/>
 </section>

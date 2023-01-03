@@ -2,7 +2,11 @@
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {},
+		extend: {
+			animation: {
+				'spin-slow': 'spin 30s linear infinite'
+			}
+		},
 		colors: {
 			transparent: 'transparent',
 			black: '#0C0C0D',

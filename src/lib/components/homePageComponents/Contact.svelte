@@ -1,7 +1,7 @@
 <script lang="ts">
-	import MailIcon from './icons/MailIcon.svelte';
-	import PhoneIcon from './icons/PhoneIcon.svelte';
-	import LocationIcon from './icons/LocationIcon.svelte';
+	import MailIcon from '../icons/MailIcon.svelte';
+	import PhoneIcon from '../icons/PhoneIcon.svelte';
+	import LocationIcon from '../icons/LocationIcon.svelte';
 </script>
 
 <section id="contact" class="flex flex-col md:flex-row mt-20">
