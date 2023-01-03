@@ -1,4 +1,5 @@
 <script>
+	import HamburgerIcon from './icons/HamburgerIcon.svelte';
 	let showMenu = false;
 
 	function toggleNavbar() {
@@ -10,25 +11,16 @@
 	<nav class="md:px-0 md:flex md:justify-between md:max-w-6xl mx-auto px-5 py-5">
 		<div class="flex items-center justify-between">
 			<a class="text-xl font-bold text-gray-800 md:text-2xl hover:text-blue-400" href="/">
-				<img src="/assets/images/logo.png" alt="66 BBQ & Hotpot Bar Logo" />
+				<img src="/assets/images/logo.png" alt="66 BBQ & Hotpot Bar Logo" class="w-20 md:w-28" />
 			</a>
-			<!-- svelte-ignore a11y-click-events-have-key-events -->
-			<div on:click={toggleNavbar} class="flex md:hidden">
-				<button type="button" aria-label="Menu Button" class="text-gray-800 hover:text-gray-40 focus:text-gray-400">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke-width="1.5"
-						stroke="currentColor"
-						class="w-6 h-6"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-						/>
-					</svg>
+			<div class="flex md:hidden">
+				<button
+					type="button"
+					aria-label="Menu Button"
+					class="text-gray-800 hover:text-gray-40 focus:text-gray-400"
+					on:click={toggleNavbar}
+				>
+					<HamburgerIcon />
 				</button>
 			</div>
 		</div>
