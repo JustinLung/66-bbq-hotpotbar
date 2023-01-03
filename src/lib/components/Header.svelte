@@ -25,19 +25,21 @@
 			</div>
 		</div>
 
-		<div
+		<ul
 			class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 {showMenu
 				? 'flex'
 				: 'hidden'}"
 		>
-			<a href="/">Home</a>
-			<a href="/menu">Menu</a>
-			<a href="/#about">About</a>
-			<a href="/#contact">Contact</a>
-			<a
-				class="md:bg-red md:px-5 md:py-2 rounded hover:opacity-70 ease-in-out duration-300"
-				href="/booking">Book a table</a
-			>
-		</div>
+			<li><a href="/">Home</a></li>
+			<li><a href="/menu">Menu</a></li>
+			<li><a href="/#about">About</a></li>
+			<li><a href="/#contact">Contact</a></li>
+			<li>
+				<a
+					class="md:bg-red md:px-5 md:py-2 rounded hover:opacity-70 ease-in-out duration-300"
+					href="/booking">Book a table</a
+				>
+			</li>
+		</ul>
 	</nav>
 </header>
