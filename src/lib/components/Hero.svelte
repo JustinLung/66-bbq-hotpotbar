@@ -5,11 +5,13 @@
 		</h1>
 		<p class="text-xl py-3 text-center lg:text-left">A pinch of passion in every dish.</p>
 		<div class="flex gap-2 justify-center lg:justify-start">
-			<a href="/" class="bg-red py-1 px-3 rounded text-lg hover:opacity-70 ease-in-out duration-300"
+			<a
+				href="/menu"
+				class="bg-red py-1 px-3 rounded text-lg hover:opacity-70 ease-in-out duration-300"
 				>See our menu</a
 			>
 			<a
-				href="/"
+				href="/booking"
 				class="bg-grey py-1 px-3 rounded text-lg hover:opacity-70 ease-in-out duration-300"
 				>Book a table</a
 			>
