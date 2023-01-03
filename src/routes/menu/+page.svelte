@@ -1,6 +1,11 @@
 <script lang="ts">
 	import PageTransition from '$lib/components/PageTransition.svelte';
+	const pageTitle = 'Menu';
 </script>
+
+<svelte:head>
+	<title>66 BBQ & Hotpot Bar - {pageTitle}</title>
+</svelte:head>
 
 <PageTransition>
 	<section class="max-w-6xl mx-auto mt-10 flex flex-col justify-center gap-5">

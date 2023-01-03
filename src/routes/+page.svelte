@@ -8,7 +8,12 @@
 	import PageTransition from '$lib/components/PageTransition.svelte';
 
 	export let data: PageData;
+	const pageTitle = 'Home';
 </script>
+
+<svelte:head>
+	<title>66 BBQ & Hotpot Bar - {pageTitle}</title>
+</svelte:head>
 
 <PageTransition>
 	<Hero />
