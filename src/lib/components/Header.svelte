@@ -30,10 +30,10 @@
 				? 'flex'
 				: 'hidden'}"
 		>
-			<li><a href="/">Home</a></li>
-			<li><a href="/menu">Menu</a></li>
-			<li><a href="/#about">About</a></li>
-			<li><a href="/#contact">Contact</a></li>
+			<li><a href="/" class="hover:underline">Home</a></li>
+			<li><a href="/menu" class="hover:underline">Menu</a></li>
+			<li><a href="/#about" class="hover:underline">About</a></li>
+			<li><a href="/#contact" class="hover:underline">Contact</a></li>
 			<li>
 				<a
 					class="md:bg-red md:px-5 md:py-2 rounded hover:opacity-70 ease-in-out duration-300"
