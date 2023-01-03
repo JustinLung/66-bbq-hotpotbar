@@ -14,7 +14,7 @@
 			</a>
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<div on:click={toggleNavbar} class="flex md:hidden">
-				<button type="button" class="text-gray-800 hover:text-gray-40 focus:text-gray-400">
+				<button type="button" aria-label="Menu Button" class="text-gray-800 hover:text-gray-40 focus:text-gray-400">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
