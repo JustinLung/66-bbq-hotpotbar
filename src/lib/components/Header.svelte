@@ -7,7 +7,7 @@
 	}
 </script>
 
-<header>
+<header class="sticky top-0 w-full z-50">
 	<nav class="md:px-0 md:flex md:justify-between md:max-w-6xl mx-auto px-5 py-5">
 		<div class="flex items-center justify-between">
 			<a class="text-xl font-bold text-gray-800 md:text-2xl hover:text-blue-400" href="/">
