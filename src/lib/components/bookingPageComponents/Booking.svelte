@@ -1,9 +1,3 @@
-<script lang="ts">
-	let currentDate = new Date().toISOString().split('T')[0];
-
-	console.log(new Date().toISOString().split('T')[0]);
-</script>
-
 <form
 	action="https://formspree.io/f/mrgvgpbn"
 	method="post"
@@ -13,7 +7,7 @@
 		type="date"
 		name="Date of reservation"
 		class="bg-white text-black border py-2 px-5 cursor-pointer"
-		value={currentDate}
+		value={new Date().toISOString().split('T')[0]}
 	/>
 	<select name="Time" class="bg-transparent border py-2 px-5 cursor-pointer" required>
 		<option class="bg-black color-white" value="time: 14:30">14:30</option>
