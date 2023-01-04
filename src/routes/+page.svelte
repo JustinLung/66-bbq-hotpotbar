@@ -4,6 +4,7 @@
 	import Dish from '$lib/components/homePageComponents/Dish.svelte';
 	import Dishes from '$lib/components/homePageComponents/Dishes.svelte';
 	import About from '$lib/components/homePageComponents/About.svelte';
+	import BookingSection from '$lib/components/bookingPageComponents/BookingSection.svelte';
 	import Contact from '$lib/components/homePageComponents/Contact.svelte';
 	import PageTransition from '$lib/components/PageTransition.svelte';
 
@@ -27,5 +28,6 @@
 		{/each}
 	</Dishes>
 	<About />
+	<BookingSection />
 	<Contact />
 </PageTransition>
