@@ -99,7 +99,7 @@
 		required
 	/>
 	<input
-		name="E-Mail"
+		name="e-Mail"
 		type="email"
 		class="bg-transparent border py-2 px-5 cursor-pointer"
 		placeholder="Email Address"
