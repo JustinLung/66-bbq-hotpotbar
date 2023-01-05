@@ -45,7 +45,8 @@
 			<li>
 				<a
 					class="md:bg-red md:px-5 md:py-2 rounded hover:opacity-70 ease-in-out duration-300"
-					href="/booking">Book a table</a
+					href="/booking"
+					on:click={closeNavMenu}>Book a table</a
 				>
 			</li>
 		</ul>
