@@ -3,6 +3,6 @@
 	export let galleryAlt: string;
 </script>
 
-<figure class="md:p-1">
+<figure class="py-1 md:p-1">
 	<img class="rounded" src={galleryImage} alt={galleryAlt} />
 </figure>
