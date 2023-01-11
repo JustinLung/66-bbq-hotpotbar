@@ -3,7 +3,9 @@
 		<h1 class="text-center text-3xl lg:text-left md:text-5xl font-bold">
 			Welcome to 66 <br /> BBQ & Hotpot Bar
 		</h1>
-		<p class="text-xl py-3 text-center lg:text-left">A pinch of passion in every dish.</p>
+		<p class="text-xl py-3 text-center lg:text-left max-w-md">
+			We are the first restaurant in Amsterdam where you can enjoy BBQ, Hotpot and drinks once.
+		</p>
 		<div class="flex gap-2 justify-center lg:justify-start">
 			<a
 				href="/menu"

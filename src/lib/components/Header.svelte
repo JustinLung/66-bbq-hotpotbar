@@ -4,6 +4,13 @@
 
 	function toggleNavbar() {
 		showMenu = !showMenu;
+
+		showMenu ? document.body.classList.add('freeze') : document.body.classList.remove('freeze');
+	}
+
+	function closeNavMenu() {
+		showMenu = false;
+		document.body.classList.remove('freeze');
 	}
 </script>
 
@@ -30,15 +37,16 @@
 				? 'flex'
 				: 'hidden'}"
 		>
-			<li><a href="/" class="hover:underline">Home</a></li>
-			<li><a href="/menu" class="hover:underline">Menu</a></li>
-			<li><a href="/#about" class="hover:underline">About</a></li>
-			<li><a href="/gallery" class="hover:underline">Gallery</a></li>
-			<li><a href="/#contact" class="hover:underline">Contact</a></li>
+			<li><a href="/" class="hover:underline" on:click={closeNavMenu}>Home</a></li>
+			<li><a href="/menu" class="hover:underline" on:click={closeNavMenu}>Menu</a></li>
+			<li><a href="/#about" class="hover:underline" on:click={closeNavMenu}>About</a></li>
+			<li><a href="/gallery" class="hover:underline" on:click={closeNavMenu}>Gallery</a></li>
+			<li><a href="/#contact" class="hover:underline" on:click={closeNavMenu}>Contact</a></li>
 			<li>
 				<a
 					class="md:bg-red md:px-5 md:py-2 rounded hover:opacity-70 ease-in-out duration-300"
-					href="/booking">Book a table</a
+					href="/booking"
+					on:click={closeNavMenu}>Book a table</a
 				>
 			</li>
 		</ul>
