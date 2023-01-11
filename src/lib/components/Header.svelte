@@ -7,8 +7,8 @@
 	}
 </script>
 
-<header class="sticky bg-black md:bg-transparent top-0 w-full z-50">
-	<nav class="md:px-0 md:flex md:justify-between md:max-w-6xl mx-auto px-5 py-5">
+<header class="sticky bg-darkTransparent top-0 w-full z-50">
+	<nav class="md:px-0 md:flex md:justify-between md:max-w-6xl mx-auto px-5 py-2">
 		<div class="flex items-center justify-between">
 			<a class="text-xl font-bold text-gray-800 md:text-2xl hover:text-blue-400" href="/">
 				<img src="/assets/images/logo.png" alt="66 BBQ & Hotpot Bar Logo" class="w-20 md:w-28" />
@@ -33,7 +33,7 @@
 			<li><a href="/" class="hover:underline">Home</a></li>
 			<li><a href="/menu" class="hover:underline">Menu</a></li>
 			<li><a href="/#about" class="hover:underline">About</a></li>
-			<li><a href="/gallery" class="hover:underline">gallery</a></li>
+			<li><a href="/gallery" class="hover:underline">Gallery</a></li>
 			<li><a href="/#contact" class="hover:underline">Contact</a></li>
 			<li>
 				<a
