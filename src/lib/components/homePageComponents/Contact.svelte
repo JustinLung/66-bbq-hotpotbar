@@ -25,7 +25,7 @@
 		<a
 			href="mailto:info@66bbqhotpotbar.nl"
 			class="text-lg hover:underline flex items-center gap-5 pt-2"
-			><MailIcon /> info@66bbqhotpotbar.nl</a
+			><MailIcon /> info.66bbqhotpotbar@gmail.com</a
 		>
 
 		<h2 class="text-3xl md:text-4xl font-semibold mt-10 mb-3">Opening Hours</h2>
