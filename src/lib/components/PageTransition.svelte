@@ -4,6 +4,7 @@
 	const pageTransitionDuration = 500;
 </script>
 
+<!-- Page Transitions -->
 {#key url}
 	<div
 		in:fly={{ y: -10, duration: pageTransitionDuration, delay: pageTransitionDuration }}
