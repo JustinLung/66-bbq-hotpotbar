@@ -23,7 +23,7 @@
 			><PhoneIcon />(020) 776 66 71</a
 		>
 		<a
-			href="mailto:info@66bbqhotpotbar.nl"
+			href="mailto:info.66bbqhotpotbar@gmail.com"
 			class="text-lg hover:underline flex items-center gap-5 pt-2"
 			><MailIcon /> info.66bbqhotpotbar@gmail.com</a
 		>
