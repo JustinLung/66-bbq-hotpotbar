@@ -9,5 +9,5 @@
 </svelte:head>
 
 <PageTransition>
-	<!-- <BookingSection /> -->
+	<BookingSection />
 </PageTransition>
