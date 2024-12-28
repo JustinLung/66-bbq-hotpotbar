@@ -6,7 +6,7 @@
 </script>
 
 <Header />
-<main class="px-5">
+<main class="px-5 h-full">
 	<slot />
 </main>
 <Footer companyName="66 BBQ & Hotpot Bar" />
