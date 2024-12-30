@@ -15,10 +15,10 @@
 </script>
 
 <header class="sticky bg-darkTransparent top-0 w-full z-50">
-	<nav class="md:px-0 md:flex md:justify-between md:max-w-6xl mx-auto px-5 py-2">
+	<nav class="md:px-0 md:flex md:justify-between md:max-w-6xl mx-auto px-6 py-6">
 		<div class="flex items-center justify-between">
 			<a class="text-xl font-bold text-gray-800 md:text-2xl hover:text-blue-400" href="/">
-				<img src="/assets/images/logo.png" alt="66 BBQ & Hotpot Bar Logo" class="w-20 md:w-28" />
+				<img src="/assets/images/logo.png" alt="66 Chinese Restaurant & Hotpot Bar Logo" class="w-36 lg:w-72" />
 			</a>
 			<div class="flex md:hidden">
 				<button
@@ -45,8 +45,7 @@
 			<li>
 				<a
 					class="md:bg-red md:px-5 md:py-2 rounded hover:opacity-70 ease-in-out duration-300"
-					href="/booking"
-					on:click={closeNavMenu}>Book a table</a
+					href="https://66-chinese-restaurant-hotpotbar.youcanbook.me/" target="_blank" rel="noopener noreferrer">Book a table</a
 				>
 			</li>
 		</ul>
