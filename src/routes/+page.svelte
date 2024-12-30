@@ -28,6 +28,6 @@
 		{/each}
 	</Dishes>
 	<About />
-	<!-- <BookingSection /> -->
+	<BookingSection />
 	<Contact />
 </PageTransition>
