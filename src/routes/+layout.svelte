@@ -9,5 +9,5 @@
 <main class="px-5 h-full">
 	<slot />
 </main>
-<Footer companyName="66 BBQ & Hotpot Bar" />
+<Footer companyName="66 Chinese Restaurant & Hotpot Bar" />
 <BackToTop />

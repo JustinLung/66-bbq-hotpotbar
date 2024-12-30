@@ -13,7 +13,7 @@
 </script>
 
 <svelte:head>
-	<title>66 BBQ & Hotpot Bar - {pageTitle}</title>
+	<title>66 Chinese Restaurant & Hotpot Bar - {pageTitle}</title>
 </svelte:head>
 
 <PageTransition>
@@ -28,6 +28,6 @@
 		{/each}
 	</Dishes>
 	<About />
-	<BookingSection />
+	<!-- <BookingSection /> -->
 	<Contact />
 </PageTransition>
