@@ -30,7 +30,8 @@
 
 		<h2 class="text-3xl md:text-4xl font-semibold mt-10 mb-3">Opening Hours</h2>
 		<p class="text-lg">Dine in or take away</p>
-		<p class="text-lg">From monday to sunday 12:00 - 23:30</p>
+		<p class="text-lg">From Monday to Thursday 12:00 - 22:00</p>
+		<p class="text-lg">From Friday to Sunday 12:00 - 23:30</p>
 		<a href="https://66-chinese-restaurant-hotpotbar.youcanbook.me/" target="_blank" rel="noopener noreferrer" class="mt-10 bg-red w-fit md:px-5 md:py-2 rounded hover:opacity-70 ease-in-out duration-300">Book a Table</a>
 	</div>
 </section>
