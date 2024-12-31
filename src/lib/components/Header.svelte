@@ -20,7 +20,7 @@
 			<a class="text-xl font-bold text-gray-800 md:text-2xl hover:text-blue-400" href="/">
 				<img src="/assets/images/logo.png" alt="66 Chinese Restaurant & Hotpot Bar Logo" class="w-36 lg:w-72" />
 			</a>
-			<div class="flex md:hidden">
+			<div class="flex gap-4 md:hidden">
 				<button
 					type="button"
 					aria-label="Menu Button"
@@ -29,6 +29,7 @@
 				>
 					<HamburgerIcon />
 				</button>
+				<a href="https://66-chinese-restaurant-hotpotbar.youcanbook.me/" target="_blank" rel="noopener noreferrer" class="block md:hidden bg-red w-fit py-1 px-3 md:px-5 md:py-2 rounded hover:opacity-70 ease-in-out duration-300">Book a Table</a>
 			</div>
 		</div>
 
